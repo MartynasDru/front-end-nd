@@ -32,21 +32,19 @@ a {
   .Poster-title {
     margin-bottom: 1.5rem; }
 
-ul {
+.List {
   list-style-type: none; }
-  ul li {
+  .List .List-item {
     padding-left: 1.5rem; }
+  .List .List-item--regular {
+    background: url(../images/dot.png) no-repeat left 0.7rem;
+    background-size: .4rem .4rem; }
+  .List .List-item--arrow {
+    background: url(../images/arrow.png) no-repeat left 0.6rem;
+    background-size: .8rem .8rem; }
 
-.Container:not(:last-child) {
+.Article:not(:last-child) {
   margin-bottom: 2.5rem; }
 
-.Container-title {
+.Article-title {
   margin: .6rem 0; }
-
-.Container-list--default li {
-  background: url(../images/dot.png) no-repeat left 0.7rem;
-  background-size: .4rem .4rem; }
-
-.Container-list--arrows li {
-  background: url(../images/arrow.png) no-repeat left 0.6rem;
-  background-size: .8rem .8rem; }
