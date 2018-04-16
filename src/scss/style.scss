@@ -36,43 +36,39 @@ a {
   color: #627d81;
 }
 
-.Poster {
+.Advert {
   max-width: 68rem;
   margin: 0 auto;
 
-  &-title {
+  .u-mainTitleSpaceBottom {
     margin-bottom: 1.5rem;
   }
 }
 
-.List {
+.InformationList {
   list-style-type: none;
 
-  .List-item {
+  &-item {
     padding-left: 1.5rem;
 
   }
 
-  .List-item--regular {
+  &-item--bulletDot {
     background: url(../images/dot.png) no-repeat left .7rem;
     background-size: .4rem .4rem;
   }
 
-  .List-item--arrow {
+  &-item--bulletArrow {
     background: url(../images/arrow.png) no-repeat left .6rem;
     background-size: .8rem .8rem;
   }
 
 }
 
-.Article {
-
-  &:not(:last-child) {
-    margin-bottom: 2.5rem;
-  }
-
-  &-title {
+.u-informationTitleSpaceBottomTop {
     margin: .6rem 0;
-  }
+}
 
+.u-sectionSpaceBottom:not(:last-child) {
+  margin-bottom: 2.5rem;
 }

@@ -26,25 +26,25 @@ h4 {
 a {
   color: #627d81; }
 
-.Poster {
+.Advert {
   max-width: 68rem;
   margin: 0 auto; }
-  .Poster-title {
+  .Advert .u-mainTitleSpaceBottom {
     margin-bottom: 1.5rem; }
 
-.List {
+.InformationList {
   list-style-type: none; }
-  .List .List-item {
+  .InformationList-item {
     padding-left: 1.5rem; }
-  .List .List-item--regular {
+  .InformationList-item--bulletDot {
     background: url(../images/dot.png) no-repeat left 0.7rem;
     background-size: .4rem .4rem; }
-  .List .List-item--arrow {
+  .InformationList-item--bulletArrow {
     background: url(../images/arrow.png) no-repeat left 0.6rem;
     background-size: .8rem .8rem; }
 
-.Article:not(:last-child) {
-  margin-bottom: 2.5rem; }
-
-.Article-title {
+.u-informationTitleSpaceBottomTop {
   margin: .6rem 0; }
+
+.u-sectionSpaceBottom:not(:last-child) {
+  margin-bottom: 2.5rem; }
