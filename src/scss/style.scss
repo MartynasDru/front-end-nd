@@ -2,6 +2,8 @@ $color-header: #627d80;
 $color-primary: #fd9827;
 $color-text: #666666;
 
+$gutter: 1.5rem;
+
 *,
 *::after,
 *::before {
@@ -28,47 +30,48 @@ h1 {
   font-weight: 400;
 }
 
-h4 {
+h2 {
   color: $color-primary;
+  font-size: 1.5rem;
 }
 
 a {
   color: #627d81;
 }
 
-.Advert {
+.Main {
   max-width: 68rem;
   margin: 0 auto;
 
-  .u-mainTitleSpaceBottom {
-    margin-bottom: 1.5rem;
+  .u-spaceBottom {
+    margin-bottom: $gutter;
   }
 }
 
-.InformationList {
+.List {
   list-style-type: none;
 
-  &-item {
+  &Item {
     padding-left: 1.5rem;
 
   }
 
-  &-item--bulletDot {
+  &Item--bulletDot {
     background: url(../images/dot.png) no-repeat left .7rem;
     background-size: .4rem .4rem;
   }
 
-  &-item--bulletArrow {
+  &Item--bulletArrow {
     background: url(../images/arrow.png) no-repeat left .6rem;
     background-size: .8rem .8rem;
   }
 
 }
 
-.u-informationTitleSpaceBottomTop {
-    margin: .6rem 0;
+.u-halfSpaceBottomTop {
+    margin: $gutter/2 0;
 }
 
-.u-sectionSpaceBottom:not(:last-child) {
-  margin-bottom: 2.5rem;
+.u-doubleSpaceBottom:not(:last-child) {
+  margin-bottom: $gutter*2;
 }

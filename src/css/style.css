@@ -20,31 +20,32 @@ h1 {
   font-size: 3rem;
   font-weight: 400; }
 
-h4 {
-  color: #fd9827; }
+h2 {
+  color: #fd9827;
+  font-size: 1.5rem; }
 
 a {
   color: #627d81; }
 
-.Advert {
+.Main {
   max-width: 68rem;
   margin: 0 auto; }
-  .Advert .u-mainTitleSpaceBottom {
+  .Main .u-spaceBottom {
     margin-bottom: 1.5rem; }
 
-.InformationList {
+.List {
   list-style-type: none; }
-  .InformationList-item {
+  .ListItem {
     padding-left: 1.5rem; }
-  .InformationList-item--bulletDot {
+  .ListItem--bulletDot {
     background: url(../images/dot.png) no-repeat left 0.7rem;
     background-size: .4rem .4rem; }
-  .InformationList-item--bulletArrow {
+  .ListItem--bulletArrow {
     background: url(../images/arrow.png) no-repeat left 0.6rem;
     background-size: .8rem .8rem; }
 
-.u-informationTitleSpaceBottomTop {
-  margin: .6rem 0; }
+.u-halfSpaceBottomTop {
+  margin: 0.75rem 0; }
 
-.u-sectionSpaceBottom:not(:last-child) {
-  margin-bottom: 2.5rem; }
+.u-doubleSpaceBottom:not(:last-child) {
+  margin-bottom: 3rem; }
